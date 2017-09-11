@@ -1,0 +1,20 @@
+Books{
+	isbn: '',
+	title:'',
+	keyworks: ['','',''],
+	author:[{ 
+	          firstName: '', 
+	          lastName:''}]
+}
+
+Student{
+	id:'',
+	name:'',
+	Books:[{ isbn:'',
+	         borrow_date:'',
+             return_date
+		      }],
+    contact: [{ address:'',
+                phone:'' 
+            }] 
+}
